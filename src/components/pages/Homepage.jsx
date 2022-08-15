@@ -330,8 +330,8 @@ const Homepage = () => {
         className="footer-text">
         {[
           <span>
-           Copyright © 2019-2022 | mrsfoxagency | LLC
-          Terms & Conditions
+           Copyright © 2019-2022 | mrsfoxagency | (PTY) LTD |
+          Terms & Conditions |
           Privacy Policy
           </span>]}
       </span>
