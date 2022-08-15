@@ -1,0 +1,59 @@
+.button-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.class-container{
+
+    height: 50%;
+    width: 60%;
+    margin: 1;
+
+    padding-bottom: 10rem;
+
+}
+
+.yellow-button {
+
+    width: 20rem;
+    height: 3rem;
+    
+
+    color: #000000;
+    border-width: 0;
+    background-color: #EEEEEE;
+
+    font-size: 100%;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.yellow-button:hover{
+    background-color: #969696;
+}
+
+.h1-button-text {
+    background-color: #EEEEEE;
+}
+
+.grey-button {
+    
+    height: 50%;
+    width: 50%;
+
+    background-color: #EEEEEE;
+    border-radius: 1rem;
+    border-width: 0;
+
+    cursor: pointer;
+
+    font-size: x-small;
+
+}
+.grey-button:hover{
+    background-color: #969696;
+}

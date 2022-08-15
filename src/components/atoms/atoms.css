@@ -1,0 +1,30 @@
+.input-field-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.input-field {
+
+    width: 20rem;
+    height: 3rem;
+
+    border: 2px solid #EEEEEE;
+
+
+    color: #EEEEEE;
+    font-size: large;
+    
+}
+
+.heading-text {
+    background-color: #EEEEEE;
+}
+
+.number-text {
+    font-weight: bold;
+    background-color: #EEEEEE;
+}

@@ -1,0 +1,99 @@
+* {
+
+}
+
+.container {
+    
+    margin: 1;
+    display: table-row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button {
+    width: 100vw;
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+
+.intro-heading {
+    
+    position: relative;
+    height: 80%;
+    width: 100%;
+}
+
+
+.heading {
+    
+    padding-top: 50vw;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.first-block-container {
+    
+    width: 100%;
+    padding: 1em;
+
+}
+
+.first {
+margin-top: 1rem;
+width: 100%;
+padding: 1em;
+
+}
+
+.main-header {
+
+    padding: 10vw;
+}
+
+.second-block-container {
+    
+        margin: 1;
+        width: 100%;
+        padding: 1em;
+
+}
+
+.second {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1em;
+
+}
+
+.third-block-container {
+    
+        width: 100%;
+        padding: 1em;
+
+}
+
+.third {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1em;
+
+}
+
+.fourth-block-container {
+    
+        width: 100%;
+        padding: 1em;
+
+}
+
+.fourth {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 1em;
+
+}
+
