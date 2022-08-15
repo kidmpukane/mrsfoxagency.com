@@ -292,7 +292,7 @@ const Homepage = () => {
       <div
         style={{
           paddingTop: "8vw",
-          paddingBottom: "8vw",
+          paddingBottom: "18vw",
         }}>
       <YellowButton
         onClick={() => {window.location.href="https://calendly.com/mrsfoxagency/meeting"}}
@@ -302,9 +302,24 @@ const Homepage = () => {
           </h1>
         ]}/>
       </div>
+
+      </div>
+      </section>  
+    
+
+      <section
+        className="t-and-cs">
+            <div
+      className="post-text-container">
+      <GoogleFontLoader
+      fonts={[{
+          font: 'Inter',
+          weights: [400],
+        }]}/>
+
       <span
         style={{
-          paddingTop: "10vw",
+          paddingTop: "10rem",
           fontSize: '0.5rem',
           fontFamily: 'Inter, cursive',
           fontWeight: "300",
