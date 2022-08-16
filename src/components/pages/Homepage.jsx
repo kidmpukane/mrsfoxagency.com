@@ -293,7 +293,7 @@ const Homepage = () => {
       <div
         style={{
           paddingLeft: "2rem",
-          paddingTop: "3rem",
+          paddingTop: "3vw",
         }}>
       <PopupButton
         styles={{
