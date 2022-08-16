@@ -289,19 +289,25 @@ const Homepage = () => {
            Need more info? you can reach us through email at lwandiso@mrsfoxagency.com
           </span>]}
       </span>
+      </div>
       <div
         style={{
-          paddingTop: "8vw",
-          paddingBottom: "18vw",
+          paddingLeft: "2rem",
+          paddingTop: "3rem",
         }}>
-      <YellowButton
-        onClick={() => {window.location.href="https://calendly.com/mrsfoxagency/meeting"}}
-        buttonText={[
-          <h1>
-            Book A Meeting
-          </h1>
-        ]}/>
-      </div>
+      <PopupButton
+        styles={{
+          padding: "1rem",
+          fontSize: "1rem",
+        }}
+        url="https://calendly.com/mrsfoxagency/meeting"
+        /*
+         * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
+         * specify the rootElement property to ensure that the modal is inserted into the correct domNode.
+         */
+        rootElement={document.getElementById("root")}
+        text="Click here to schedule!"
+      />
 
       </div>
       </section>  
